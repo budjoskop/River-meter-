@@ -3,23 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		248081BD259FA54F00877965 /* FeedKit in Frameworks */ = {isa = PBXBuildFile; productRef = 248081BC259FA54F00877965 /* FeedKit */; };
+		248081C725A1DB3A00877965 /* RiverCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248081C625A1DB3A00877965 /* RiverCardView.swift */; };
+		248081CA25A1FCAB00877965 /* RiverPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248081C925A1FCAB00877965 /* RiverPicker.swift */; };
 		24B1424C2584105C004BE484 /* River_MeterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B1424B2584105C004BE484 /* River_MeterApp.swift */; };
-		24B1424E2584105C004BE484 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B1424D2584105C004BE484 /* ContentView.swift */; };
+		24B1424E2584105C004BE484 /* RiverList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B1424D2584105C004BE484 /* RiverList.swift */; };
 		24B142502584105D004BE484 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24B1424F2584105D004BE484 /* Assets.xcassets */; };
 		24B142532584105D004BE484 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24B142522584105D004BE484 /* Preview Assets.xcassets */; };
+		24ED2D7C259DC945009E5CBB /* XMLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24ED2D7B259DC945009E5CBB /* XMLNode.swift */; };
+		24ED2D7F259DC964009E5CBB /* MicroDOM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24ED2D7E259DC964009E5CBB /* MicroDOM.swift */; };
+		24ED2D87259DE249009E5CBB /* River.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24ED2D86259DE249009E5CBB /* River.swift */; };
+		24ED2D8F259E11FB009E5CBB /* XMLCoder in Frameworks */ = {isa = PBXBuildFile; productRef = 24ED2D8E259E11FB009E5CBB /* XMLCoder */; };
+		EF15722CCC8000D10CF5562D /* Pods_River_Meter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F08E7FA7325EF67DC2316E1 /* Pods_River_Meter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		248081C625A1DB3A00877965 /* RiverCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiverCardView.swift; sourceTree = "<group>"; };
+		248081C925A1FCAB00877965 /* RiverPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiverPicker.swift; sourceTree = "<group>"; };
 		24B142482584105C004BE484 /* River Meter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "River Meter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24B1424B2584105C004BE484 /* River_MeterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = River_MeterApp.swift; sourceTree = "<group>"; };
-		24B1424D2584105C004BE484 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		24B1424D2584105C004BE484 /* RiverList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiverList.swift; sourceTree = "<group>"; };
 		24B1424F2584105D004BE484 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24B142522584105D004BE484 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		24B142542584105D004BE484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24ED2D7B259DC945009E5CBB /* XMLNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLNode.swift; sourceTree = "<group>"; };
+		24ED2D7E259DC964009E5CBB /* MicroDOM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicroDOM.swift; sourceTree = "<group>"; };
+		24ED2D86259DE249009E5CBB /* River.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = River.swift; sourceTree = "<group>"; };
+		6F7A61DCC039CE08FD43E0A2 /* Pods-River Meter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-River Meter.release.xcconfig"; path = "Target Support Files/Pods-River Meter/Pods-River Meter.release.xcconfig"; sourceTree = "<group>"; };
+		7F08E7FA7325EF67DC2316E1 /* Pods_River_Meter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_River_Meter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92FDD999135177AE210E13D3 /* Pods-River Meter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-River Meter.debug.xcconfig"; path = "Target Support Files/Pods-River Meter/Pods-River Meter.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +43,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				248081BD259FA54F00877965 /* FeedKit in Frameworks */,
+				24ED2D8F259E11FB009E5CBB /* XMLCoder in Frameworks */,
+				EF15722CCC8000D10CF5562D /* Pods_River_Meter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		248081BF25A1DA8500877965 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				24B1424D2584105C004BE484 /* RiverList.swift */,
+				248081C625A1DB3A00877965 /* RiverCardView.swift */,
+				248081C925A1FCAB00877965 /* RiverPicker.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		248081C425A1DB1900877965 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				24ED2D7B259DC945009E5CBB /* XMLNode.swift */,
+				24ED2D7E259DC964009E5CBB /* MicroDOM.swift */,
+				24ED2D86259DE249009E5CBB /* River.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		24B1423F2584105C004BE484 = {
 			isa = PBXGroup;
 			children = (
 				24B1424A2584105C004BE484 /* River Meter */,
 				24B142492584105C004BE484 /* Products */,
+				F7756F8693462C35250A202D /* Pods */,
+				43474965CC55E02E0F554130 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,7 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				24B1424B2584105C004BE484 /* River_MeterApp.swift */,
-				24B1424D2584105C004BE484 /* ContentView.swift */,
+				248081C425A1DB1900877965 /* Models */,
+				248081BF25A1DA8500877965 /* Views */,
 				24B1424F2584105D004BE484 /* Assets.xcassets */,
 				24B142542584105D004BE484 /* Info.plist */,
 				24B142512584105D004BE484 /* Preview Content */,
@@ -69,6 +111,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		43474965CC55E02E0F554130 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F08E7FA7325EF67DC2316E1 /* Pods_River_Meter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7756F8693462C35250A202D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92FDD999135177AE210E13D3 /* Pods-River Meter.debug.xcconfig */,
+				6F7A61DCC039CE08FD43E0A2 /* Pods-River Meter.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,15 +135,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24B142572584105D004BE484 /* Build configuration list for PBXNativeTarget "River Meter" */;
 			buildPhases = (
+				B51FE22CFAB4CC7858A19133 /* [CP] Check Pods Manifest.lock */,
 				24B142442584105C004BE484 /* Sources */,
 				24B142452584105C004BE484 /* Frameworks */,
 				24B142462584105C004BE484 /* Resources */,
+				E1C253BAA99AF5BB1058FC6E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "River Meter";
+			packageProductDependencies = (
+				24ED2D8E259E11FB009E5CBB /* XMLCoder */,
+				248081BC259FA54F00877965 /* FeedKit */,
+			);
 			productName = "River Meter";
 			productReference = 24B142482584105C004BE484 /* River Meter.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +177,10 @@
 				Base,
 			);
 			mainGroup = 24B1423F2584105C004BE484;
+			packageReferences = (
+				24ED2D8D259E11FB009E5CBB /* XCRemoteSwiftPackageReference "XMLCoder" */,
+				248081BB259FA54F00877965 /* XCRemoteSwiftPackageReference "FeedKit" */,
+			);
 			productRefGroup = 24B142492584105C004BE484 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -133,13 +202,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B51FE22CFAB4CC7858A19133 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-River Meter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1C253BAA99AF5BB1058FC6E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-River Meter/Pods-River Meter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-River Meter/Pods-River Meter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-River Meter/Pods-River Meter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		24B142442584105C004BE484 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24B1424E2584105C004BE484 /* ContentView.swift in Sources */,
+				24B1424E2584105C004BE484 /* RiverList.swift in Sources */,
+				24ED2D7C259DC945009E5CBB /* XMLNode.swift in Sources */,
 				24B1424C2584105C004BE484 /* River_MeterApp.swift in Sources */,
+				248081C725A1DB3A00877965 /* RiverCardView.swift in Sources */,
+				24ED2D87259DE249009E5CBB /* River.swift in Sources */,
+				248081CA25A1FCAB00877965 /* RiverPicker.swift in Sources */,
+				24ED2D7F259DC964009E5CBB /* MicroDOM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +380,7 @@
 		};
 		24B142582584105D004BE484 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92FDD999135177AE210E13D3 /* Pods-River Meter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -286,6 +403,7 @@
 		};
 		24B142592584105D004BE484 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F7A61DCC039CE08FD43E0A2 /* Pods-River Meter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -328,6 +446,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		248081BB259FA54F00877965 /* XCRemoteSwiftPackageReference "FeedKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nmdias/FeedKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.1.2;
+			};
+		};
+		24ED2D8D259E11FB009E5CBB /* XCRemoteSwiftPackageReference "XMLCoder" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MaxDesiatov/XMLCoder";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.11.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		248081BC259FA54F00877965 /* FeedKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 248081BB259FA54F00877965 /* XCRemoteSwiftPackageReference "FeedKit" */;
+			productName = FeedKit;
+		};
+		24ED2D8E259E11FB009E5CBB /* XMLCoder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 24ED2D8D259E11FB009E5CBB /* XCRemoteSwiftPackageReference "XMLCoder" */;
+			productName = XMLCoder;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 24B142402584105C004BE484 /* Project object */;
 }

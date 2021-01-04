@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct River_MeterApp: App {
+    
+    @State private var rivers = River.riverPreviewListData
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RiverPicker(rivers: rivers)
         }
     }
 }
